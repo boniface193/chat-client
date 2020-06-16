@@ -1,0 +1,33 @@
+.bgbox {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.cardy{
+background-image: url('./image/chatbg.jpg'); 
+height: 80vh;
+background-repeat: no-repeat;
+}
+
+.scrollbar{
+    float: left;
+    height: 68vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #009178;
+    bottom: 50%;
+}
